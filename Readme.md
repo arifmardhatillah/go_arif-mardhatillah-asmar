@@ -1,2 +1,2 @@
-Nama lengkap = Arif Mrdhatillah Asmar
+Nama lengkap = Arif Mardhatillah Asmar
 NIM = 200401023
