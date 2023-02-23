@@ -5,7 +5,10 @@ package main
 import "fmt"
 
 func main() {
-	var angka int = 26
+	var angka int
+
+	fmt.Print("Masukkan Angka: ")
+	fmt.Scanln(&angka)
 
 	fmt.Printf("Faktor dari %d adalah: ", angka)
 
