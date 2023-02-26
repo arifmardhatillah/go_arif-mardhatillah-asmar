@@ -1,4 +1,4 @@
-// Sample Test Case
+// **Sample Test Case**
 // Input: 1000000007
 // Output: Bilangan Prima
 // Input: 1500450271
