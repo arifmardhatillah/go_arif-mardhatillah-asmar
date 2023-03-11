@@ -3,14 +3,17 @@ Problem Solving Paradigm - Brute Force Greedy and Dynamic Programming
 1. Problem Solving Paradigm adalah pendekatan yang umum digunakan untuk memecahkan masalah: Pencarian Lengkap (alias Brute Force), Divide and Conquer, pendekatan Greedy, dan Pemrograman Dinamis. Setiap masalah perlu kita selesaikan dengan pendekatan yang sesuai.
 
 2. Complete Search 
-• Complete Search (also known as) Bruteforce is a method for solving a problem by traversing the entire search space to obtain the required solution.
-• Bruteforce happen when no other algorithm available.
-• Usually easy to write because it's straightforward.
-• Theoretically all problem can be solved using Brute Force approach especially when you have unlimited time.
+
+• Complete Search, juga dikenal sebagai Bruteforce adalah metode untuk memecahkan masalah dengan melintasi seluruh ruang pencarian untuk mendapatkan solusi yang dibutuhkan.
+• Bruteforce terjadi ketika tidak ada algoritma lain yang tersedia.
+• Biasanya mudah ditulis karena lugas.
+• Secara teoritis semua masalah dapat diselesaikan dengan menggunakan pendekatan Brute Force terutama ketika Anda memiliki waktu yang tidak terbatas.
 
 3. Find MAX and MIN
+
 Problem Statement
 You are given array A containing n ≤ 10.000
+
 Example:
 
 ```sh
@@ -18,14 +21,17 @@ findMaxMin([10, 7, 3, 5, 8, 2, 9]) // 10 2
 ```
 
 4. Divide and Conquer
+
 Divide & Conquer (D&C) is a problem-solving paradigm in which a problem is made by simpler by 'dividing' it into smaller parts and then conquering each part. The Step:
 • Divide: membagi masalah yang besar menjadi masalah yang lebih kecil.
 • Conquer: ketika masalah sudah cukup kecil untuk diselesaikan, langsung selesaikan.
 • Combine: jika dibutuhkan maka perlu menggabungkan solusi dari masalah-masalah yang lebih kecil menjadi solusi untuk masalah yang besar.
 
 5. Binary Search
+
 Problem Statement
 Given sorted array A, find if there's exist such integer D on that array and return index of that value!
+
 Example:
 
 ```sh
@@ -63,8 +69,10 @@ end procedure
 ![Img 1](Screeshoots/Sequential%20VS%20Binary.png)
 
 8. Power
+
 Problem Statement
 Given two integers x and n, write a function to compute x^n. We may assume that x and n are small and overflow doesn't happen.
+
 Example:
 
 ```sh
@@ -76,11 +84,14 @@ power (7, 2) // 49
 ![Img 2](Screeshoots/Graphical%20Representation%20Power.png)
 
 10. Greedy
+
 Algoritma dikatakan serakah jika membuat lokal pilihan optimal pada setiap langkah dengan harapan pada akhirnya mencapai solusi optimal global. Dalam beberapa kasus, serakah bekerja - solusinya singkat dan berjalan efisien.
 
 11. Coin Change
+
 Problem Statement
 Given a target amount V cents and a list of denominations of n coins, i.e. we have coin Value[i] (in cents) for coin types i = [0..n-1], what is the minimum number of coins that we must use to represent amount V? Assume that we have an unlimited supply of coins of any type. coinValue = {10, 25, 5, 1}
+
 Example:
 
 ```sh
@@ -88,6 +99,7 @@ coinChange (42) // 25 10 5 1 1
 ```
 
 12. Dynamic Programming
+
 Dynamic Programming (DP) adalah teknik algoritmik untuk memecahkan masalah optimisasi dengan memecahnya menjadi submasalah yang lebih sederhana dan memanfaatkan fakta bahwa solusi optimal untuk keseluruhan masalah bergantung pada solusi optimal untuk submasalahnya.
 
 Mari kita ambil contoh angka Fibonacci. Seperti yang kita semua tahu, Fibonacci numbers adalah rangkaian angka yang setiap angkanya merupakan penjumlahan dari dua angka sebelumnya. Beberapa angka Fibonacci pertama adalah 0, 1, 1, 2, 3, 5, dan 8, dan terus berlanjut dari sana.
@@ -102,6 +114,7 @@ Fib(n) = Fib(n-1) + Fib(n-2), for n > 1
 Seperti yang dapat kita lihat dengan jelas di sini, untuk menyelesaikan keseluruhan masalah (i.e. Fib(n)), kita memecahnya menjadi dua submasalah yang lebih kecil (which are Fib(n-1) and Fib(n-2)). Ini menunjukkan bahwa kita dapat menggunakan DP untuk menyelesaikan masalah ini.
 
 13. Characteristic Of Dynamic Programming
+
 A. Overlapping Subproblems
 Subproblems adalah versi yang lebih kecil dari masalah aslinya. Masalah apa pun memiliki submasalah yang tumpang tindih jika menemukan solusinya melibatkan penyelesaian submasalah yang sama beberapa kali. Ambil contoh angka Fibonacci; untuk menemukan fib(4), kita perlu memecahnya menjadi sub-masalah.
 
@@ -115,6 +128,7 @@ Fib(n) = Fib(n-1) + Fib(n-2)
 Ini jelas menunjukkan bahwa masalah ukuran 'n' telah direduksi menjadi submasalah ukuran 'n-1' dan 'n-2'. Oleh karena itu, angka Fibonacci memiliki properti substruktur yang optimal.
 
 14. Dynamic Programming Method
+
 A. Top-down with Memoization
 Dalam pendekatan ini, kami mencoba memecahkan masalah yang lebih besar dengan mencari solusi secara rekursif untuk sub-masalah yang lebih kecil. Setiap kali kami memecahkan sub-masalah, kami menyimpan hasilnya dalam cache sehingga kami tidak menyelesaikannya berulang kali jika dipanggil berkali-kali. Sebagai gantinya, kami hanya dapat mengembalikan hasil yang disimpan. Teknik menyimpan hasil subproblem yang sudah dipecahkan ini disebut Memoisasi.
 
