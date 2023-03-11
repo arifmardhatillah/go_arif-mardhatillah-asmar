@@ -1,4 +1,6 @@
-Recursion adalah proses pengulangan barang dengan cara yang mirip. Konsep yang sama berlaku dalam bahasa pemrograman juga. Jika suatu program memungkinkan untuk memanggil suatu fungsi di dalam fungsi yang sama, maka itu disebut panggilan fungsi rekursif.
+Recursive - Number Theory - Sorting - Searching
+
+1. Recursion adalah proses pengulangan barang dengan cara yang mirip. Konsep yang sama berlaku dalam bahasa pemrograman juga. Jika suatu program memungkinkan untuk memanggil suatu fungsi di dalam fungsi yang sama, maka itu disebut panggilan fungsi rekursif.
 
 ```sh
 func recursion() {
@@ -9,7 +11,7 @@ func main() {
 }
 ```
 
-Fungsi rekursif sangat berguna untuk menyelesaikan banyak masalah matematika seperti menghitung faktorial suatu angka, menghasilkan seri Fibonacci, dll.
+2. Fungsi rekursif sangat berguna untuk menyelesaikan banyak masalah matematika seperti menghitung faktorial suatu angka, menghasilkan seri Fibonacci, dll.
 
 ```sh
 func factorial(i int)int {
@@ -20,9 +22,10 @@ func factorial(i int)int {
 }
 ```
 
-Number theory adalah cabang matematika yang mempelajari bilangan bulat. Ada banyak topik dalam bidang teori bilangan yaitu Bilangan Prima, Pembagi Persekutuan Terbesar, Kelipatan Persekutuan Terkecil, Faktorial, Faktor Prima, Dll.
+3. Number theory adalah cabang matematika yang mempelajari bilangan bulat. Ada banyak topik dalam bidang teori bilangan yaitu Bilangan Prima, Pembagi Persekutuan Terbesar, Kelipatan Persekutuan Terkecil, Faktorial, Faktor Prima, Dll.
 
-Searching adalah proses menemukan posisi nilai tertentu dalam daftar nilai.
+4. Searching adalah proses menemukan posisi nilai tertentu dalam daftar nilai.
+
 Linier Search - O(n)
 
 ```sh
