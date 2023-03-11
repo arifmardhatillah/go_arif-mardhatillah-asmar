@@ -5,13 +5,17 @@ Problem Solving Paradigm - Brute Force Greedy and Dynamic Programming
 2. Complete Search 
 
 • Complete Search, juga dikenal sebagai Bruteforce adalah metode untuk memecahkan masalah dengan melintasi seluruh ruang pencarian untuk mendapatkan solusi yang dibutuhkan.
+
 • Bruteforce terjadi ketika tidak ada algoritma lain yang tersedia.
+
 • Biasanya mudah ditulis karena lugas.
+
 • Secara teoritis semua masalah dapat diselesaikan dengan menggunakan pendekatan Brute Force terutama ketika Anda memiliki waktu yang tidak terbatas.
 
 3. Find MAX and MIN
 
 Problem Statement
+
 You are given array A containing n ≤ 10.000
 
 Example:
@@ -23,13 +27,17 @@ findMaxMin([10, 7, 3, 5, 8, 2, 9]) // 10 2
 4. Divide and Conquer
 
 Divide & Conquer (D&C) is a problem-solving paradigm in which a problem is made by simpler by 'dividing' it into smaller parts and then conquering each part. The Step:
+
 • Divide: membagi masalah yang besar menjadi masalah yang lebih kecil.
+
 • Conquer: ketika masalah sudah cukup kecil untuk diselesaikan, langsung selesaikan.
+
 • Combine: jika dibutuhkan maka perlu menggabungkan solusi dari masalah-masalah yang lebih kecil menjadi solusi untuk masalah yang besar.
 
 5. Binary Search
 
 Problem Statement
+
 Given sorted array A, find if there's exist such integer D on that array and return index of that value!
 
 Example:
@@ -71,6 +79,7 @@ end procedure
 8. Power
 
 Problem Statement
+
 Given two integers x and n, write a function to compute x^n. We may assume that x and n are small and overflow doesn't happen.
 
 Example:
@@ -90,6 +99,7 @@ Algoritma dikatakan serakah jika membuat lokal pilihan optimal pada setiap langk
 11. Coin Change
 
 Problem Statement
+
 Given a target amount V cents and a list of denominations of n coins, i.e. we have coin Value[i] (in cents) for coin types i = [0..n-1], what is the minimum number of coins that we must use to represent amount V? Assume that we have an unlimited supply of coins of any type. coinValue = {10, 25, 5, 1}
 
 Example:
@@ -104,8 +114,7 @@ Dynamic Programming (DP) adalah teknik algoritmik untuk memecahkan masalah optim
 
 Mari kita ambil contoh angka Fibonacci. Seperti yang kita semua tahu, Fibonacci numbers adalah rangkaian angka yang setiap angkanya merupakan penjumlahan dari dua angka sebelumnya. Beberapa angka Fibonacci pertama adalah 0, 1, 1, 2, 3, 5, dan 8, dan terus berlanjut dari sana.
 
-Jika kita diminta menghitung angka Fibonacci ke-n, kita bisa melakukannya
-dengan persamaan berikut:
+Jika kita diminta menghitung angka Fibonacci ke-n, kita bisa melakukannya dengan persamaan berikut:
 
 ```sh
 Fib(n) = Fib(n-1) + Fib(n-2), for n > 1
