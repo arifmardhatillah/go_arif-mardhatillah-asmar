@@ -6,24 +6,24 @@ Database atau basis data adalah kumpulan informadi yang disimpan di dalam komput
 
 kumpulan data disimpan dalam suatu tabular (tabel). Lalu, dalam suatu tabel terdapat baris & kolom (row & column).  Misalnya, kita memiliki kumpulan data mahasiswa suatu universitas, jika disimpan ke dalam tabel seperti ini bentuknya.
 
-![Img 1](Screeshoots/Sumber%201.png)
+![Img 1](Screeshoots/Sumber-1.jpg)
 
 3. Relasi Dalam DataBase
 
 - One to One
 Relasi One to One adalah relasi yang mana setiap satu baris data pada tabel pertama hanya berhubungan dengan satu baris pada tabel kedua.
 
-![Img 2](Screeshoots/Sumber%202.png)
+![Img 2](Screeshoots/Sumber-2.jpg)
 
 - One to Many
 Relasi One to Many adalah relasi yang mana setiap satu baris data pada tabel pertama berhubungan dengan lebih dari satu baris pada tabel kedua.
 
-![Img 3](Screeshoots/Sumber%203.png)
+![Img 3](Screeshoots/Sumber-3.jpg)
 
 - Many to Many
 Relasi Many to Many digunakan untuk menggabungkan 2 buah tabel dimana kedua tabel sama sama memiliki lebih dari satu record yang dapat terhubung. Biasanya relasi jenis ini memerlukan 1 tabel pendukung diantara tabel yang ingin dibuat relasi. Contohnya adalah pada hubungan relasi antara tabel Menus dan Categories dimana satu menu bisa memiliki banyak category dan satu category bisa dimiliki oleh banyak menu.
 
-![Img 4](Screeshoots/Sumber%204.png)
+![Img 4](Screeshoots/Sumber-4.jpg)
 
 4. Jenis jenis Perintah SQL
 
