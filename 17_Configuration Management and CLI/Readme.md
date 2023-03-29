@@ -17,38 +17,51 @@ COMMAND LINE INTERFACE (CLI)
 
 4. Command yang sering digunakan
 
-Directory
-- 
-```sh
-pwd (mengecek direktory yang sedang digunakan)
-```
-- 
-```sh
-ls (mengecek list//isi dari direktori yang sedang digunakan)
-```
-- 
-```sh
-mkdir (membuat direktori)
-```
-- 
-```sh
-cd (masuk direktori)
-```
-- 
-```sh
-rm (menghapus file / direktori)
-```
-- 
-```sh
-cp (mengcopy file / direktori)
-```
-- 
-```sh
-mv (memindahkan file / direktori)
-```
-- 
-```sh
-ln (membuat link pada sebuah file / direktori)
-```
+Directory :
 
-Files
+- `pwd` (mengecek direktory yang sedang digunakan)
+- `ls` (mengecek list//isi dari direktori yang sedang digunakan)
+- `mkdir` (membuat direktori)
+- `cd` (masuk direktori)
+- `rm` (menghapus file / direktori )
+- `cp` (mengcopy file / direktori)
+- `mv` (memindahkan file / direktori)
+- `ln` (membuat link pada sebuah file / direktori)
+  <br>
+
+Files :
+
+- Membuat file : `touch`
+- Melihat isi file : `head, cat, tail, less`
+- mengedit isi file : `vim , nano`
+- mengizinkan permission : `chown. chmod`
+- Different : `diff` (membedakan file)
+  <br>
+
+Utility :
+
+- `man`
+- `env`
+- `echo`
+- `date`
+- `which`
+- `watch`
+- `sudo`
+- `history`
+- `grep`
+- `locate`
+<br>
+
+Network :
+
+- `ping`
+- `ssh`
+- `netstat`
+- `nmap`
+- `ip addr (ifconfig)`
+- `wget`
+- `curl`
+- `telnet`
+- `netcat`
+  <br>
+</details>
