@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "df0a9b53-8bbc-436a-bc95-3d9f38a21207",
+		"name": "Skenario 1 Tugas 14 RESTful API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26629187"
+	},
+	"item": [
+		{
+			"name": "Tampilkan data yang diperoleh dari API",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Tampilkan data dengan id 3 yang diperoleh dari API",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Simpan data postingan ke server melalui API",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Hapus suatu data melalui API",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

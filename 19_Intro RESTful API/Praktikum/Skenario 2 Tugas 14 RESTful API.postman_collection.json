@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "71cabe44-ee9e-45bc-9070-8191201a84d0",
+		"name": "Skenario 2 Tugas 14 RESTful API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26629187"
+	},
+	"item": [
+		{
+			"name": "Tugas 1 GET",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Tugas 1 PUT",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Tugas 1 DELETE",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Tugas 1 GET ALL USER",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Tugas 1 POST",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
